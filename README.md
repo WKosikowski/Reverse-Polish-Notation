@@ -5,10 +5,15 @@ Please have a look at https://en.wikipedia.org/wiki/Reverse_Polish_notation to f
 
 
 How to use:
+
 formula = ['(', '4', '+', '(', '4', '*', '4', '+', '2',')', ')', '*', '8']
+
 (rpn_format, a) = generateRPN(formula)
+
 print (rpn_format)
+
 result = calculateFromRPN(rpn_format)
+
 print(result)
 
 
