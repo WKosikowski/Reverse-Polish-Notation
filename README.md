@@ -6,6 +6,8 @@ Please have a look at https://en.wikipedia.org/wiki/Reverse_Polish_notation to f
 
 How to use:
 
+# for formula: (4+(4*4+2))*8
+
 formula = ['(', '4', '+', '(', '4', '*', '4', '+', '2',')', ')', '*', '8']
 
 (rpn_format, a) = generateRPN(formula)
