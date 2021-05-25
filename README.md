@@ -17,7 +17,11 @@ result = calculateFromRPN(rpn_format)
 print(result)
 
 
+
+
+
 Output:
+
 ['4', '4', '4', '*', '2', '+', '+', '8', '*']
 
 176.0 
