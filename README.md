@@ -8,6 +8,7 @@ How to use:
 
 # for formula: (4+(4*4+2))*8
 
+```
 formula = ['(', '4', '+', '(', '4', '*', '4', '+', '2',')', ')', '*', '8']
 
 (rpn_format, a) = generateRPN(formula)
@@ -17,13 +18,14 @@ print (rpn_format)
 result = calculateFromRPN(rpn_format)
 
 print(result)
-
+```
 
 
 
 
 Output:
-
+```
 ['4', '4', '4', '*', '2', '+', '+', '8', '*']
 
 176.0 
+```
